@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.shit {
+    display: grid;
+    grid-template-columns: 250px 50px 650px 250px;
+    grid-template-rows: 100px 300px 300px;
+}
+.logo {
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.navigator {
+    border: 2px solid black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.kakaa{
+    display:grid;
+    gap: 20px;
+    grid-template-columns: 50px 50px 50px 50px ;
+    grid-template-rows: 20px;
+    justify-self: center;
+    top: 50px;
+    position: absolute;
+}
+.ka{
+    display: grid;
+    border: 2px solid black;
+    gap: 2px;
+    left: 50%;
+}
+
+
+.auth {
+    border: 2px solid black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.con1{
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+.con2{ 
+    border: 2px solid black;
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.con3{
+    border: 2px solid black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.con4{
+     border: 2px solid black;
+     grid-column-start: 3;
+     grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
